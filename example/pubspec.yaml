@@ -1,0 +1,23 @@
+name: wt_example
+description: Example app using WondTech WT Flutter Framework
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  crypto: ^3.0.3
+  intl: ^0.19.0
+  # wt_framework:
+  #   path: ../wt_framework   # uncomment when using as local package
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

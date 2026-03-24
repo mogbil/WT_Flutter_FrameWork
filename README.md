@@ -292,4 +292,4 @@ WtHelper.slug('My Page Title');      // "my-page-title"
 
 ## License
 
-MIT License © 2026 WT Framework — PHP Edition 1.1 — Built by [WondTech](https://wondtech.com). All rights reserved.
+MIT License © 2026 WT Framework — Flutter Edition v1.0 — Built by [WondTech](https://wondtech.com). All rights reserved.

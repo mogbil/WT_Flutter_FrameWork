@@ -71,18 +71,20 @@ example/
 
 ## Installation
 
-Add the dependencies to your `pubspec.yaml`:
-
+Add to your `pubspec.yaml`:
 ```yaml
 dependencies:
-  http: ^1.2.0
-  shared_preferences: ^2.2.2
-  crypto: ^3.0.3
-  intl: ^0.19.0
+  wt_framework:
+    git:
+      url: https://github.com/mogbil/WT_Flutter_FrameWork.git
 ```
 
-Copy the `wt_framework/lib` folder into your project, then import:
+Then run:
+```bash
+flutter pub get
+```
 
+Then import in your Dart files:
 ```dart
 import 'package:wt_framework/wt.dart';
 ```
